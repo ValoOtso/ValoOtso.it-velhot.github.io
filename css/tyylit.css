@@ -1,0 +1,181 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --teksti: #333333;
+    --tausta: #eeeeee;
+    --tausta-tumma: #3f3e3e;
+    --teksti-vaalea: #eeeeee;
+    --vihreä: #03a303;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.v-center {
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+}
+
+.h-right {
+    position: absolute;
+    right: 0;
+}
+
+header {
+    max-width: 100%;
+    width: 100%;
+    background-color:var(--tausta-tumma);
+    padding: 15px 0;
+    height: 100px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    border-bottom: 3px solid var(--vihreä);
+
+}
+
+header nav a{
+    display:inline-block;
+    font-size: 1.3em;
+    text-decoration: none;
+    color: var(--vihreä);
+    padding: 20px 0.5em;
+    hyphens: auto;
+}
+
+header nav a:hover {
+    color: var(--teksti);
+    background-color: var(--vihreä);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Monsterrat", sans-serif;
+    background-color: var(--tausta);
+    color: var(--teksti);
+    hyphens: auto;
+}
+
+main {
+    font-size: 1.2em;
+    line-height: 1.5em;
+    padding-top: 80px;
+    hyphens: auto;
+}
+
+section {
+    max-width: 900px;
+    width: 70%;
+    margin: 20px auto;
+
+}
+
+.showcase {
+    font-size: 1.6em;
+    color: var(--teksti-vaalea);
+    line-height: 1.6em;
+    padding: 50px 0;
+    width: 100%;
+    max-width: 100%;
+    background-image: url("/img/koodi4.jpeg");
+    background-size: 100%;
+    text-align: center;
+    hyphens: auto;
+}
+
+.ingressi {
+    font-size: 1.3em;
+    font-style: italic;
+    line-height: 1.6em;
+    border-top: 3px double var(--vihreä);
+    border-bottom: 3px double var(--vihreä);
+    hyphens: auto;
+}
+
+.tutkinnonosat p{
+    display: block;
+    border-radius: 10px;
+    background-color: #09a009;
+    padding: 30px;
+    color: var(--teksti);
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+    hyphens: auto;
+}
+
+.tutkinnonrakenne p{
+    border-top: 3px double var(--vihreä);
+    padding-top: 15px;
+    font-size: 1.3em;
+    hyphens: auto;
+}
+
+.tutkinnonrakenne li{
+    display:list-item;
+    background-color: #09a009;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.tutkinnonosalista > div{
+    display: block;
+    background-color: #09a009;
+    padding: 10px;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+
+.tutkinnonosalista > ul > li{
+    border-top: 1px #09a009 solid;
+    line-height: 1.5em;
+}
+
+#taulukko th {
+    width: 5%;
+    background-color:#03a3038f;
+    border: 2px #333333 solid;
+}
+
+table tr:nth-child(even) {
+    background-color: #09a00989;
+}
+
+table td:first-child {
+    background-color: #333333;
+}
+
+#taulukko td {
+    padding: 10px 40px;
+    width: 10%;
+    border: 2px #333333 solid;
+}
+
+#taulukko thead th{
+    font-size: 1.3em;
+    padding: 20px;
+    border: 2px #333333 solid;
+}
+
+table {
+    border: 2px #333333 solid;
+}
+
+.osaamisenarviointi {
+    display: block;
+    background-color: #09a009;
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+
+
+
+
+
+    
+
