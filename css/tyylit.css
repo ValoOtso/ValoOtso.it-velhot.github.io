@@ -81,7 +81,7 @@ section {
     padding: 50px 0;
     width: 100%;
     max-width: 100%;
-    background-image: url("/img/koodi4.jpeg");
+    background-image: url("../img/koodi4.jpeg");
     background-size: 100%;
     text-align: center;
     hyphens: auto;
